@@ -1,12 +1,7 @@
 const ru = require('convert-layout/ru');
 // const cyrillicToTranslit = require('cyrillic-to-translit-js')();
 
-const defaultConfig = {
-  allowUnlistedCommands: false,
-  validator: /^\w+$/,
-  validInitiators: ['/', '.', '?', '÷', '\\', '|', '«', '»'],
-  commands: undefined,
-};
+const defaultConfig = require('./defaultConfig');
 
 module.exports = function layoutfixer(config) {
   // generate new config object based on defaultConfig and override it with existing variables in the config passed as argument

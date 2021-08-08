@@ -1,6 +1,6 @@
 {
   "name": "telegraf-layoutfixer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Layout fixing middleware for Telegraf",
   "main": "index.js",
   "scripts": {
