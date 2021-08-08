@@ -23,6 +23,10 @@ bot.launch()
 
 > layoutfixer should be connected last, after all the other middlewares
 
+## Preview
+
+<img width="300" alt="preview" src="misc/preview.jpg">
+
 ## Options
 
 [Defaults](https://github.com/artginzburg/telegraf-layoutfixer/blob/main/defaultConfig.js) are shown below:
