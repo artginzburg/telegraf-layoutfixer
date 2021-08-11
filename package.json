@@ -1,26 +1,23 @@
 {
   "name": "telegraf-layoutfixer",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Layout fixing middleware for Telegraf",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": "https://github.com/artginzburg/telegraf-layoutfixer",
-  "author": "Art Ginzburg <ginzburg.arthur@gmail.com>",
   "license": "MIT",
+  "repository": "artginzburg/telegraf-layoutfixer",
+  "funding": "https://www.buymeacoffee.com/artginzburg",
+  "author": "Art Ginzburg <ginzburg.arthur@gmail.com>",
   "keywords": [
     "telegraf",
     "layout",
     "convert",
     "middleware"
   ],
-  "bugs": {
-    "url": "https://github.com/artginzburg/telegraf-layoutfixer/issues"
-  },
-  "homepage": "https://github.com/artginzburg/telegraf-layoutfixer#readme",
+  "main": "index.js",
   "engines": {
     "node": ">=8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "convert-layout": "^0.9.0"
