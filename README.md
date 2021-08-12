@@ -1,4 +1,4 @@
-# telegraf-layoutfixer
+# [telegraf](https://www.npmjs.com/package/telegraf)-layoutfixer
 
 [![Dependencies](https://status.david-dm.org/gh/artginzburg/telegraf-layoutfixer.svg)](https://david-dm.org/artginzburg/telegraf-layoutfixer)
 
