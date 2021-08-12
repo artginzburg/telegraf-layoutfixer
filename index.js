@@ -1,3 +1,5 @@
+const { Composer } = require('telegraf');
+
 const ru = require('convert-layout/ru');
 // const cyrillicToTranslit = require('cyrillic-to-translit-js')();
 
@@ -7,7 +9,7 @@ module.exports = function layoutfixer(config) {
   // generate new config object based on defaultConfig and override it with existing variables in the config passed as argument
   config = { ...defaultConfig, ...config };
 
-  return (ctx, next) => {
+  return Composer.on('text', (ctx, next) => {
     // Terms:
     // layout-converted message — (e.g. `рудз` => `help`)
     // transliterated message — (e.g. `админ` => `admin`)
@@ -26,7 +28,7 @@ module.exports = function layoutfixer(config) {
     }
 
     if (!message || !message.text) {
-      // bypass if message doesn't exist or doesn't contain text (e.g. it's a sticker or a document)
+      // bypass if message doesn't exist or doesn't contain text
       return next();
     }
 
@@ -74,5 +76,5 @@ module.exports = function layoutfixer(config) {
 
     // reply with layout-converted message
     return ctx.reply(`/${layoutConverted}?`);
-  };
+  });
 };
