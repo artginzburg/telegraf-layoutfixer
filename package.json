@@ -1,6 +1,6 @@
 {
   "name": "telegraf-layoutfixer",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Layout fixing middleware for Telegraf",
   "license": "MIT",
   "repository": "artginzburg/telegraf-layoutfixer",
