@@ -1,16 +1,20 @@
 {
   "name": "telegraf-layoutfixer",
   "version": "1.0.6",
-  "description": "Layout fixing middleware for Telegraf",
+  "description": "Layout fixing middleware for Telegram bots",
   "license": "MIT",
   "repository": "artginzburg/telegraf-layoutfixer",
   "funding": "https://www.buymeacoffee.com/artginzburg",
   "author": "Art Ginzburg <ginzburg.arthur@gmail.com>",
   "keywords": [
     "telegraf",
+    "telegram",
+    "bot",
+    "middleware",
+    "api",
     "layout",
     "convert",
-    "middleware"
+    "fix"
   ],
   "main": "index.js",
   "engines": {
@@ -23,7 +27,7 @@
     "convert-layout": "^0.9.0"
   },
   "peerDependencies": {
-    "telegraf": ">=3.7.1"
+    "telegraf": ""
   },
   "reveal": true
 }

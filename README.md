@@ -58,6 +58,6 @@ Sets the commands that count as listed (if `allowUnlistedCommands` is `false`). 
 
 ## Caught a Bug?
 
-1. [Fork](https://help.github.com/articles/fork-a-repo/) this repository to your own GitHub account and then [clone](https://help.github.com/articles/cloning-a-repository/) it to your local device
+1. [Fork](https://help.github.com/articles/fork-a-repo/) this [repository](https://github.com/artginzburg/telegraf-layoutfixer/fork) to your own GitHub account and then [clone](https://help.github.com/articles/cloning-a-repository/) it to your local device
 2. Link the package to the global module directory: `npm link`
 3. Within the Telegraf app you want to test your local development instance of telegraf-layoutfixer, just link it to the dependencies: `npm link telegraf-layoutfixer`. Instead of the default one from npm, Node.js will now use your clone of the middleware!
