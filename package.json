@@ -24,5 +24,6 @@
   },
   "peerDependencies": {
     "telegraf": ">=3.7.1"
-  }
+  },
+  "reveal": true
 }
