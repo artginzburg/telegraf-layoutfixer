@@ -4,7 +4,7 @@
 </h1>
 
 [![Dependencies](https://status.david-dm.org/gh/artginzburg/telegraf-layoutfixer.svg)](https://david-dm.org/artginzburg/telegraf-layoutfixer)
-<a href="https://www.npmjs.com/package/telegraf-layoutfixer?activeTab=versions"><img align="right" alt="npm" src="https://img.shields.io/npm/dw/telegraf-layoutfixer?labelColor=black&color=darkred"></a>
+<a href="https://www.npmjs.com/package/telegraf-layoutfixer?activeTab=versions"><img align="right" alt="npm" src="https://img.shields.io/npm/dw/telegraf-layoutfixer?labelColor=white&color=cd0d0d&logo=npm"></a>
 
 <div align="center">
 
