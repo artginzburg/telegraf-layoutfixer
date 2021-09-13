@@ -1,6 +1,6 @@
 {
   "name": "telegraf-layoutfixer",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Layout fixing middleware for Telegram bots",
   "license": "MIT",
   "repository": "artginzburg/telegraf-layoutfixer",
