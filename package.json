@@ -24,7 +24,7 @@
     "test": "echo \"Error: no test specified (see README.md#caught-a-bug)\" && exit 1"
   },
   "dependencies": {
-    "convert-layout": "^0.10.0"
+    "convert-layout": "^0.11.1"
   },
   "peerDependencies": {
     "telegraf": ""
